@@ -6,7 +6,7 @@ android {
     }
     release {
       minifyEnabled true
-      proguardFiles getDefaultProguardFile('proguard-android.txt'), "../app/src/main/assets/www/proguard-custom.txt"
+      proguardFiles getDefaultProguardFile('proguard-android.txt'),  "../app/src/main/assets/www/proguard-custom.txt"
     }
   }
 }
